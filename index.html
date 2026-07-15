@@ -3,85 +3,123 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>About | Strategia 2027</title>
+  <title>Strategia 2027 | Loyola College Chennai</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <!-- Dynamic Glass Header -->
   <header class="site-header">
     <div class="header-container">
-      <a href="../index.html" class="logo">STRATEGIA<span>2027</span></a>
+      <a href="index.html" class="logo">STRATEGIA<span>2027</span></a>
       <button class="menu-toggle" aria-label="Toggle Navigation">
         <span></span>
         <span></span>
       </button>
       <nav class="nav-menu">
-        <a href="../index.html" class="nav-link">Home</a>
-        <a href="about.html" class="nav-link active">About</a>
-        <a href="register.html" class="nav-link nav-btn">Register Now</a>
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="pages/about.html" class="nav-link">About</a>
+        <a href="pages/register.html" class="nav-link nav-btn">Register Now</a>
       </nav>
     </div>
   </header>
 
-  <!-- Page Banner -->
-  <section class="page-hero">
-    <div class="section-container">
-      <div class="hero-badge reveal">The Legacy & Vision</div>
-      <h1 class="section-title reveal delay-1">Learn About <span class="gradient-text">Our Roots</span></h1>
-      <p class="hero-subtitle reveal delay-2">Unveiling the prestige of Loyola College, the brilliance of B.Com. Honours, and the spirit of Strategia.</p>
+  <!-- Dynamic Cinematic Hero -->
+  <section class="hero-section">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-container">
+      <div class="hero-badge reveal">
+        <span class="pulse-dot"></span>
+        Loyola College, Chennai • B.Com. (Honours)
+      </div>
+      <h1 class="hero-title reveal delay-1">
+        The Ultimate Arena of <span class="gradient-text">Strategic Minds</span>
+      </h1>
+      <p class="hero-subtitle reveal delay-2">
+        Where intelligence meets competitive strategy. Join the premier national-level undergraduate symposium crafted by the Department of Commerce (Honours) at Loyola.
+      </p>
+      
+      <!-- Live Countdown -->
+      <div class="countdown-container reveal delay-3" id="countdown" data-date="2027-12-25T09:00:00">
+        <div class="countdown-item">
+          <span class="count" id="days">365</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="countdown-separator">:</div>
+        <div class="countdown-item">
+          <span class="count" id="hours">00</span>
+          <span class="label">Hrs</span>
+        </div>
+        <div class="countdown-separator">:</div>
+        <div class="countdown-item">
+          <span class="count" id="minutes">00</span>
+          <span class="label">Mins</span>
+        </div>
+        <div class="countdown-separator">:</div>
+        <div class="countdown-item">
+          <span class="count" id="seconds">00</span>
+          <span class="label">Secs</span>
+        </div>
+      </div>
+
+      <div class="hero-ctas reveal delay-4">
+        <a href="pages/register.html" class="btn btn-primary">Secure Your Spot</a>
+        <a href="pages/about.html" class="btn btn-secondary">Explore Events</a>
+      </div>
     </div>
   </section>
 
-  <!-- Editorial Section -->
-  <section class="about-editorial-section">
-    <div class="editorial-layout">
-      
-      <!-- Loyola College Chennai -->
-      <div class="editorial-block reveal">
-        <div class="editorial-tag">Loyola College</div>
-        <div class="editorial-content">
-          <h2>An Institution of Excellence</h2>
-          <p>
-            Established in 1925 by the Society of Jesus (Jesuits), Loyola College in Chennai stands as a beacon of academic prestige and holistic development in India. Renowned for its rigorous training, exceptional faculty, and outstanding campus placement, Loyola is consistently ranked among the top collegiate institutions nationally.
-          </p>
-          <p>
-            With a vision to form credible global leaders who possess creative intellect and social commitment, Loyola fosters an environment where innovation thrives, preparing students to lead the professional world with character.
-          </p>
+  <!-- Quick Info Row -->
+  <section class="quick-info-section">
+    <div class="info-grid">
+      <div class="info-card reveal">
+        <div class="info-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <h3>The Venue</h3>
+        <p>Loyola College, Chennai - 600034</p>
+      </div>
+      <div class="info-card reveal">
+        <div class="info-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+        </div>
+        <h3>The Date</h3>
+        <p>25th December 2027</p>
+      </div>
+      <div class="info-card reveal">
+        <div class="info-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <h3>The Timing</h3>
+        <p>From 09:00 AM Onwards</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Highlights -->
+  <section class="highlights-section">
+    <div class="section-container">
+      <h2 class="section-title text-center reveal">Why Attend <span class="gradient-text">Strategia</span>?</h2>
+      <div class="highlights-grid">
+        <div class="highlight-item reveal">
+          <div class="hl-number">01</div>
+          <h3>Elite Corporate Cases</h3>
+          <p>Tackle actual, high-stakes problems curated by domain professionals and industry veterans.</p>
+        </div>
+        <div class="highlight-item reveal">
+          <div class="hl-number">02</div>
+          <h3>Prestige & Legacy</h3>
+          <p>Compete under the iconic banner of Loyola College's premier B.Com. Honours program.</p>
+        </div>
+        <div class="highlight-item reveal">
+          <div class="hl-number">03</div>
+          <h3>Networking & Trophies</h3>
+          <p>Gain massive exposure to top tier minds, recruitments, and grand cash accolades.</p>
         </div>
       </div>
-
-      <!-- Department of Commerce (B.Com. Honours) -->
-      <div class="editorial-block reveal">
-        <div class="editorial-tag">The Department</div>
-        <div class="editorial-content">
-          <h2>B.Com. Honours Program</h2>
-          <p>
-            The Department of Commerce (B.Com. Honours) at Loyola College represents the peak of undergraduate business education. Known for its highly specialized syllabus, rigorous research requirements, and exclusive industrial internships, this elite division prepares candidates for complex strategic corporate roles, professional certifications (like CA, ACCA), and higher education.
-          </p>
-          <p>
-            Through intensive case studies, masterclasses, and specialized seminars, the Honours stream nurtures a highly collaborative and intellectually competitive cohort.
-          </p>
-        </div>
-      </div>
-
-      <!-- Strategia 2027 -->
-      <div class="editorial-block reveal">
-        <div class="editorial-tag">The Event</div>
-        <div class="editorial-content">
-          <h2>Strategia 2027</h2>
-          <p>
-            Strategia is the flagship national-level symposium crafted by the B.Com. Honours students of Loyola. Acting as the ultimate test of strategic wisdom, leadership acumen, and financial intellect, the event brings together the sharpest undergraduate minds from premier universities across India.
-          </p>
-          <p>
-            On 25th December 2027, the battlegrounds will open for high-stakes competition. Under pressure, with live scenarios and realistic corporate simulations, only the best minds will walk away with the legendary title of Strategia Champion.
-          </p>
-        </div>
-      </div>
-
     </div>
   </section>
 
@@ -89,14 +127,14 @@
   <footer class="site-footer">
     <div class="footer-container">
       <div class="footer-brand">
-        <a href="../index.html" class="logo">STRATEGIA<span>2027</span></a>
+        <a href="index.html" class="logo">STRATEGIA<span>2027</span></a>
         <p>Annual National Symposium organized by the Department of Commerce (B.Com. Honours), Loyola College, Chennai.</p>
       </div>
       <div class="footer-links">
         <h4>Navigation</h4>
-        <a href="../index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="register.html">Register</a>
+        <a href="index.html">Home</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/register.html">Register</a>
       </div>
     </div>
     <div class="footer-bottom">
@@ -104,6 +142,6 @@
     </div>
   </footer>
 
-  <script src="../script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
