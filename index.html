@@ -1,18 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Strategia 2027</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Strategia 2027 | Loyola College Chennai</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<main class="wrap">
-  <h1>Strategia 2027</h1>
-  <p class="lead">Your new site is ready. Start editing to make it yours.</p>
-</main>
-<footer>Made with GalSol</footer>
+
+  <!-- Dynamic Glass Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="logo">STRATEGIA<span>2027</span></a>
+      <button class="menu-toggle" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="pages/about.html" class="nav-link">About</a>
+        <a href="pages/register.html" class="nav-link nav-btn">Register Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Dynamic Cinematic Hero -->
+  <section class="hero-section">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-container">
+      <div class="hero-badge reveal">
+        <span class="pulse-dot"></span>
+        Loyola College, Chennai • B.Com. (Honours)
+      </div>
+      <h1 class="hero-title reveal delay-1">
+        The Ultimate Arena of <span class="gradient-text">Strategic Minds</span>
+      </h1>
+      <p class="hero-subtitle reveal delay-2">
+        Where intelligence meets competitive strategy. Join the premier national-level undergraduate symposium crafted by the Department of Commerce (Honours) at Loyola.
+      </p>
+      
+      <!-- Live Countdown -->
+      <div class="countdown-container reveal delay-3" id="countdown" data-date="2027-12-25T09:00:00">
+        <div class="countdown-item">
+          <span class="count" id="days">365</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="countdown-separator">:</div>
+        <div class="countdown-item">
+          <span class="count" id="hours">00</span>
+          <span class="label">Hrs</span>
+        </div>
+        <div class="countdown-separator">:</div>
+        <div class="countdown-item">
+          <span class="count" id="minutes">00</span>
+          <span class="label">Mins</span>
+        </div>
+        <div class="countdown-separator">:</div>
+        <div class="countdown-item">
+          <span class="count" id="seconds">00</span>
+          <span class="label">Secs</span>
+        </div>
+      </div>
+
+      <div class="hero-ctas reveal delay-4">
+        <a href="pages/register.html" class="btn btn-primary">Secure Your Spot</a>
+        <a href="pages/about.html" class="btn btn-secondary">Explore Events</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Info Row -->
+  <section class="quick-info-section">
+    <div class="info-grid">
+      <div class="info-card reveal">
+        <div class="info-icon">📍</div>
+        <h3>The Venue</h3>
+        <p>Loyola College, Chennai - 600034</p>
+      </div>
+      <div class="info-card reveal">
+        <div class="info-icon">📅</div>
+        <h3>The Date</h3>
+        <p>25th December 2027</p>
+      </div>
+      <div class="info-card reveal">
+        <div class="info-icon">⏰</div>
+        <h3>The Timing</h3>
+        <p>From 09:00 AM Onwards</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Highlights -->
+  <section class="highlights-section">
+    <div class="section-container">
+      <h2 class="section-title text-center reveal">Why Attend <span class="gradient-text">Strategia</span>?</h2>
+      <div class="highlights-grid">
+        <div class="highlight-item reveal">
+          <div class="hl-number">01</div>
+          <h3>Elite Corporate Cases</h3>
+          <p>Tackle actual, high-stakes problems curated by domain professionals and industry veterans.</p>
+        </div>
+        <div class="highlight-item reveal">
+          <div class="hl-number">02</div>
+          <h3>Prestige & Legacy</h3>
+          <p>Compete under the iconic banner of Loyola College's premier B.Com. Honours program.</p>
+        </div>
+        <div class="highlight-item reveal">
+          <div class="hl-number">03</div>
+          <h3>Networking & Trophies</h3>
+          <p>Gain massive exposure to top tier minds, recruitments, and grand cash accolades.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">STRATEGIA<span>2027</span></a>
+        <p>Annual National Symposium organized by the Department of Commerce (B.Com. Honours), Loyola College, Chennai.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <a href="index.html">Home</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/register.html">Register</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2027 Strategia Committee. All Rights Reserved. Designed professionally.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
