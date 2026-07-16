@@ -88,11 +88,20 @@ h1, h2, h3, h4, .logo {
   text-decoration: none;
   color: var(--text-primary);
   letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .logo span {
   color: var(--accent);
   font-weight: 300;
+}
+
+.event-logo {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav-menu {
